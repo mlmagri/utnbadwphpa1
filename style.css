@@ -1,0 +1,104 @@
+/* style.css */
+
+/* Fuente y fondo general */
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado principal */
+h1 {
+  text-align: center;
+  color: #6a0dad; /* violeta */
+  margin-top: 40px;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+
+/* Formulario */
+form {
+  max-width: 480px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Etiquetas */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #6a0dad;
+  box-shadow: 0 0 6px rgba(106,13,173,0.3);
+  outline: none;
+}
+
+/* Botón */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #ff6600; /* naranja */
+  color: #fff;
+  font-size: 1.05em;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #6a0dad; /* cambia a violeta */
+}
+
+/* Resultados */
+h2 {
+  text-align: center;
+  color: #ff6600;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2em;       /* más grande que el párrafo normal */
+  font-weight: 500;       /* seminegrita, menos que h2 */
+  color: #6a0dad;         /* violeta para resaltar */
+  margin-top: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;  /* un poco de espacio entre letras */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #f5f5f5;
+  color: #666;
+  margin-top: 40px;
+  font-size: 0.9em;
+  border-top: 1px solid #eee;
+}
