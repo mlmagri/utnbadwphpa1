@@ -17,17 +17,17 @@
 
       <div>
         <label for="nota1">Ingresa nota Primer Trimestre:</label>
-        <input type="number" id="nota1" min="1" max="10" name="nota1"/>
+        <input type="number" id="nota1" min="1" max="10" pLaceholder="10" name="nota1"/>
       </div>
 
       <div>
         <label for="nota2">Ingresa nota Segundo Trimestre:</label>
-        <input type="number" id="nota2" min="1" max="10" name="nota2"/>
+        <input type="number" id="nota2" min="1" max="10" pLaceholder="10" name="nota2"/>
       </div>
         
       <div>
           <label for="nota3">Ingresa nota Tercer Trimestre:</label>
-          <input type="number" id="nota3" min="1" max="10" name="nota3"/>
+          <input type="number" id="nota3" min="1" max="10" pLaceholder="10" name="nota3"/>
       </div>
       <button type="submit">Enviar</button>
     </form>
@@ -70,7 +70,7 @@
       }
          
       } else{
-        echo '<span>Estamos aguardando a que completes el formulario..</span>';
+        echo '<p>Estamos aguardando a que completes el formulario..</p>';
       }
         
     ?>

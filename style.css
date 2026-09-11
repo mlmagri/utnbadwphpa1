@@ -1,4 +1,4 @@
-/* style.css */
+
 
 /* Fuente y fondo general */
 body {
@@ -37,7 +37,7 @@ label {
   color: #444;
 }
 
-/* Campos de entrada */
+/* Campos de entrada de texto del formulario*/
 input[type="text"],
 input[type="number"] {
   width: 100%;
@@ -56,21 +56,22 @@ input[type="number"]:focus {
   outline: none;
 }
 
-/* Botón */
+/* Botón Enviar */
 button {
   width: 100%;
   padding: 12px;
-  background: #ff6600; /* naranja */
+  background: #ff6600; 
   color: #fff;
   font-size: 1.05em;
   font-weight: 600;
   border: none;
   border-radius: 6px;
   cursor: pointer;
+
 }
 
 button:hover {
-  background: #6a0dad; /* cambia a violeta */
+  background: #6a0dad; /* cambia a violeta cuando pasa el mouse por arriba*/
 }
 
 /* Resultados */
@@ -83,12 +84,12 @@ h2 {
 
 p {
   text-align: center;
-  font-size: 1.2em;       /* más grande que el párrafo normal */
-  font-weight: 500;       /* seminegrita, menos que h2 */
-  color: #6a0dad;         /* violeta para resaltar */
+  font-size: 1.2em;       
+  font-weight: 500;       
+  color: #6a0dad;         
   margin-top: 15px;
   margin-bottom: 15px;
-  letter-spacing: 0.5px;  /* un poco de espacio entre letras */
+  letter-spacing: 0.5px;  
 }
 
 /* Footer */
